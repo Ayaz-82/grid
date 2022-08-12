@@ -1,0 +1,15 @@
+@media(max-width:992px) {
+  .two {
+    grid-column: span 4;
+  }
+}
+@media (max-width:768px) {
+  .three,.four,.five,.six {
+    grid-column: span 2;
+  }
+}
+@media (max-width:480px) {
+  .three, .four, .five, .six {
+    grid-column: span 4;
+  }
+}
